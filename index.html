@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
     <head>
         <meta charset="UFT-8">
         <meta name="description"content="Alguma descrição">
@@ -13,6 +13,17 @@
             body {
                 background-color: rgba(138, 33, 121,0.723);
                 color: white;
+                margin-bottom: 300px;
+            }
+            
+            .sublinhado {
+                text-decoration: underline;
+            }
+            .preto {
+                color: black;
+            }
+            #maiusculas {
+                text-transform: uppercase 
             }
         </STYle>
     </head>
@@ -21,7 +32,7 @@
         <h1> Hello World</h1>
         <p>Olá Filhos</p>
         <p> AMO VOCÊS</p>
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <P class="sublinhado preto" id="maiusculas"><span style="color: red;">L</span> styleLorem ipsum dolor sit amet consectetur adipisicing elit.
         Quas dolor reiciendis hic sed fuga sunt, molestias, nesciunt 
         laborum similique eligendi fugiat asperiores aliquid corrupti, 
         nam temporibus eum facere impedit reprehenderit?</P>
@@ -34,6 +45,56 @@
         <a href="https://www.instagram.com" target="_blank">insta</a>
         <a href="mailto:exemplo@mail.com"> Me mande uma email</a>
         <a href="tel:+5598123456789">Me ligue</a>
+
+        <hr>
+
+        <h1>imagens</h1>
+
+        <a href="https://linkinpark.com">
+            <img src="fla.jfif" alt="" width="200px" heigt="200px">
+        </a>
+
+        <hr>
+
+        <h1>listas</h1>
+
+        <ul>
+            <li class="sublinhado">Jogos</li>
+            <li>Jogadores</li>
+            <li>Museu</li>
+        </ul>
+
+        <ol>
+            <li>Futibol</li>
+            <li>Basquete</li>
+            <li>Volei</li>
+        </ol>
+
+        <dl>
+            <dt>HTML</dt>
+            <dd>Uma linguagem para marcação</dd>
+            <dt>CSS</dt>
+            <dd>Uma linguagem para estilização</dd>
+        </dl>
+
+        <hr>
+
+        <h1>Tabelas</h1>
+
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Emaill</th>
+            </tr>
+            <tr>
+                <td>Fulano</td>
+                <td>Fulano@mail.com</td>
+            </tr>
+            <tr>
+                <td>Beltrano</td>
+                <td>Beltrano@mail.com</td>
+            </tr>
+        </table>
 
     </body>
 </html>
